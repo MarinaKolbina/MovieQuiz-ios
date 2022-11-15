@@ -7,8 +7,8 @@
 
 import Foundation
 
-internal struct QuizResultsViewModel {
-  let title: String
-  let text: String
-  let buttonText: String
+struct QuizResultsViewModel {
+    let title: String
+    let text: String
+    let buttonText: String
 }
