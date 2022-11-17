@@ -9,7 +9,7 @@ import Foundation
 
 protocol MovieQuizViewControllerProtocol: AnyObject {
     func show(quiz step: QuizStepViewModel)
-    func show(quiz result: QuizResultsViewModel)
+    func showAlert(alert: AlertModel)
     
     func highlightImageBorder(isCorrectAnswer: Bool)
     

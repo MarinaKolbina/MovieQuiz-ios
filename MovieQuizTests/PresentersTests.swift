@@ -15,8 +15,8 @@ final class MovieQuizViewControllerProtocolMock: MovieQuizViewControllerProtocol
     
     }
     
-    func show(quiz result: QuizResultsViewModel) {
-    
+    func showAlert(alert: AlertModel) {
+        
     }
     
     func highlightImageBorder(isCorrectAnswer: Bool) {

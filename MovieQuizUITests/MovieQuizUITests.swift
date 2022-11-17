@@ -67,9 +67,8 @@ class MovieQuizUITests: XCTestCase {
     func testGameFinish() {
         for _ in 1...10 {
             app.buttons["No"].tap()
+            sleep(2)
         }
-        
-        sleep(2)
         
         let alert = app.alerts["Этот раунд окончен!"]
         
@@ -81,9 +80,8 @@ class MovieQuizUITests: XCTestCase {
     func testAlertDismiss() {
         for _ in 1...10 {
             app.buttons["No"].tap()
+            sleep(2)
         }
-        
-        sleep(2)
         
         let alert = app.alerts["Этот раунд окончен!"]
         alert.buttons.firstMatch.tap()
